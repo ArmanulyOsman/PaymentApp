@@ -3,21 +3,31 @@ using PaymentApp.Models;
 
 namespace PaymentApp.Dtos;
 
-//todo add validations
 public class CreatePaymentRequest
 {
+    [Required(ErrorMessage = "Wallet number is required")]
+    [StringLength(50, MinimumLength = 1)]
     public string WalletNumber { get; set; } = string.Empty;
 
+    [Required(ErrorMessage = "Account is required")]
+    [StringLength(100, MinimumLength = 1)]
     public string Account { get; set; } = string.Empty;
 
+    [Required(ErrorMessage = "Email is required")]
+    [EmailAddress(ErrorMessage = "Invalid email format")]
     public string Email { get; set; } = string.Empty;
 
+    [Phone(ErrorMessage = "Invalid phone format")]
     public string? Phone { get; set; }
 
+    [Required(ErrorMessage = "Amount is required")]
+    [Range(0.01, double.MaxValue, ErrorMessage = "Amount must be positive")]
     public decimal Amount { get; set; }
 
+    [Required(ErrorMessage = "Currency is required")]
     public Currency Currency { get; set; }
 
+    [StringLength(500)]
     public string? Comment { get; set; }
 }
 
