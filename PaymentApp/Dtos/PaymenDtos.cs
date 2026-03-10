@@ -1,7 +1,7 @@
 using System.ComponentModel.DataAnnotations;
-using PaymentService.API.Models;
+using PaymentApp.Models;
 
-namespace PaymentService.Dtos;
+namespace PaymentApp.Dtos;
 
 //todo add validations
 public class CreatePaymentRequest
@@ -48,11 +48,4 @@ public class DailyStats
     public string Date { get; set; } = string.Empty;
     public int Count { get; set; }
     public decimal TotalAmount { get; set; }
-}
-
-public class PaymentStatsResponse
-{
-    public decimal TotalAmount { get; set; }
-    public int TotalCount { get; set; }
-    public List<DailyStats> DailyStats { get; set; } = new();
 }
