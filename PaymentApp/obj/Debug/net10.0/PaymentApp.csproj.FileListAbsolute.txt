@@ -1,3 +1,11 @@
+/Users/armanlyosman/Desktop/c_sharp/PaymentApp/PaymentApp/obj/Debug/net10.0/PaymentApp.csproj.AssemblyReference.cache
+/Users/armanlyosman/Desktop/c_sharp/PaymentApp/PaymentApp/obj/Debug/net10.0/rpswa.dswa.cache.json
+/Users/armanlyosman/Desktop/c_sharp/PaymentApp/PaymentApp/obj/Debug/net10.0/PaymentApp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/armanlyosman/Desktop/c_sharp/PaymentApp/PaymentApp/obj/Debug/net10.0/PaymentApp.AssemblyInfoInputs.cache
+/Users/armanlyosman/Desktop/c_sharp/PaymentApp/PaymentApp/obj/Debug/net10.0/PaymentApp.AssemblyInfo.cs
+/Users/armanlyosman/Desktop/c_sharp/PaymentApp/PaymentApp/obj/Debug/net10.0/PaymentApp.csproj.CoreCompileInputs.cache
+/Users/armanlyosman/Desktop/c_sharp/PaymentApp/PaymentApp/obj/Debug/net10.0/PaymentApp.MvcApplicationPartsAssemblyInfo.cache
+/Users/armanlyosman/Desktop/c_sharp/PaymentApp/PaymentApp/obj/Debug/net10.0/PaymentApp.sourcelink.json
 /Users/armanlyosman/Desktop/c_sharp/PaymentApp/PaymentApp/bin/Debug/net10.0/appsettings.Development.json
 /Users/armanlyosman/Desktop/c_sharp/PaymentApp/PaymentApp/bin/Debug/net10.0/appsettings.json
 /Users/armanlyosman/Desktop/c_sharp/PaymentApp/PaymentApp/bin/Debug/net10.0/PaymentApp.staticwebassets.runtime.json
@@ -95,14 +103,6 @@
 /Users/armanlyosman/Desktop/c_sharp/PaymentApp/PaymentApp/bin/Debug/net10.0/tr/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 /Users/armanlyosman/Desktop/c_sharp/PaymentApp/PaymentApp/bin/Debug/net10.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 /Users/armanlyosman/Desktop/c_sharp/PaymentApp/PaymentApp/bin/Debug/net10.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-/Users/armanlyosman/Desktop/c_sharp/PaymentApp/PaymentApp/obj/Debug/net10.0/PaymentApp.csproj.AssemblyReference.cache
-/Users/armanlyosman/Desktop/c_sharp/PaymentApp/PaymentApp/obj/Debug/net10.0/rpswa.dswa.cache.json
-/Users/armanlyosman/Desktop/c_sharp/PaymentApp/PaymentApp/obj/Debug/net10.0/PaymentApp.GeneratedMSBuildEditorConfig.editorconfig
-/Users/armanlyosman/Desktop/c_sharp/PaymentApp/PaymentApp/obj/Debug/net10.0/PaymentApp.AssemblyInfoInputs.cache
-/Users/armanlyosman/Desktop/c_sharp/PaymentApp/PaymentApp/obj/Debug/net10.0/PaymentApp.AssemblyInfo.cs
-/Users/armanlyosman/Desktop/c_sharp/PaymentApp/PaymentApp/obj/Debug/net10.0/PaymentApp.csproj.CoreCompileInputs.cache
-/Users/armanlyosman/Desktop/c_sharp/PaymentApp/PaymentApp/obj/Debug/net10.0/PaymentApp.MvcApplicationPartsAssemblyInfo.cache
-/Users/armanlyosman/Desktop/c_sharp/PaymentApp/PaymentApp/obj/Debug/net10.0/PaymentApp.sourcelink.json
 /Users/armanlyosman/Desktop/c_sharp/PaymentApp/PaymentApp/obj/Debug/net10.0/rjimswa.dswa.cache.json
 /Users/armanlyosman/Desktop/c_sharp/PaymentApp/PaymentApp/obj/Debug/net10.0/rjsmrazor.dswa.cache.json
 /Users/armanlyosman/Desktop/c_sharp/PaymentApp/PaymentApp/obj/Debug/net10.0/rjsmcshtml.dswa.cache.json
@@ -118,4 +118,4 @@
 /Users/armanlyosman/Desktop/c_sharp/PaymentApp/PaymentApp/obj/Debug/net10.0/PaymentApp.pdb
 /Users/armanlyosman/Desktop/c_sharp/PaymentApp/PaymentApp/obj/Debug/net10.0/PaymentApp.genruntimeconfig.cache
 /Users/armanlyosman/Desktop/c_sharp/PaymentApp/PaymentApp/obj/Debug/net10.0/ref/PaymentApp.dll
-/Users/armanlyosman/Desktop/c_sharp/PaymentApp/PaymentApp/obj/Debug/net10.0/compressed/q86axlckxa-{0}-8eyz868lgq-8eyz868lgq.gz
+/Users/armanlyosman/Desktop/c_sharp/PaymentApp/PaymentApp/obj/Debug/net10.0/compressed/q86axlckxa-{0}-zt0wqjro2n-zt0wqjro2n.gz

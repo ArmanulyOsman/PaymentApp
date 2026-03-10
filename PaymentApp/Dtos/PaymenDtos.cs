@@ -59,3 +59,9 @@ public class DailyStats
     public int Count { get; set; }
     public decimal TotalAmount { get; set; }
 }
+public class PaymentStatsResponse
+{
+    public decimal TotalAmount { get; set; }
+    public int TotalCount { get; set; }
+    public List<DailyStats> DailyStats { get; set; } = new();
+}

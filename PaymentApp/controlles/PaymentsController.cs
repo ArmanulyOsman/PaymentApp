@@ -79,4 +79,12 @@ public class PaymentsController : ControllerBase
         var result = await _paymentService.GetPaymentsAsync(page, pageSize, sort, ct);
         return Ok(result);
     }
+
+    /// <summary>GET /api/payments/stats — Aggregated statistics</summary>
+    [HttpGet("stats")]
+    public async Task<IActionResult> GetStats(CancellationToken ct)
+    {
+        var result = await _paymentService.GetStatsAsync(ct);
+        return Ok(result);
+    }
 }

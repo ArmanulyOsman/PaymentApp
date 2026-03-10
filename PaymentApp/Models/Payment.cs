@@ -8,7 +8,7 @@ public enum PaymentStatus
 
 public enum Currency
 {
-    RUB,
+    KZT,
     USD,
     EUR
 }

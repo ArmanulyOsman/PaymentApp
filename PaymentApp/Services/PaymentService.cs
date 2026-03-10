@@ -53,6 +53,22 @@ public class PaymentService : IPaymentService
         };
     }
 
+    public async Task<PaymentStatsResponse> GetStatsAsync(CancellationToken ct = default) {
+        var (totalAmount, totalCount, daily) = await _repository.GetStatsAsync(ct);
+
+        return new PaymentStatsResponse
+        {
+            TotalAmount = totalAmount,
+            TotalCount = totalCount,
+            DailyStats = daily.Select(d => new DailyStats
+            {
+                Date = d.Date.ToString("yyyy-MM-dd"),
+                Count = d.Count,
+                TotalAmount = d.Amount
+            }).ToList()
+        };
+    } 
+
     private static PaymentResponse MapToResponse(Payment p) => new()
     {
         Id = p.Id,

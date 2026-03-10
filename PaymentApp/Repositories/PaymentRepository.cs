@@ -38,4 +38,20 @@ public class PaymentRepository : IPaymentRepository
         return (items, total);
     }
 
+    public async Task<(decimal TotalAmount, int TotalCount, List<(DateTime Date, int Count, decimal Amount)> Daily)>
+        GetStatsAsync(CancellationToken ct = default)
+    {
+        var payments = await _context.Payments.ToListAsync(ct);
+
+        var totalAmount = payments.Sum(p => p.Amount);
+        var totalCount = payments.Count;
+
+        var daily = payments
+            .GroupBy(p => p.CreatedAt.Date)
+            .Select(g => (Date: g.Key, Count: g.Count(), Amount: g.Sum(p => p.Amount)))
+            .OrderByDescending(x => x.Date)
+            .ToList();
+
+        return (totalAmount, totalCount, daily);
+    }
 }
